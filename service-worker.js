@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.60ef7031fa48c7f334aa601043679b4c.js"
+  "/precache-manifest.ae9ce9bdad4e64e58bf82ee58124d4aa.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "xatlov"});
+workbox.core.setCacheNameDetails({prefix: "Erp"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
